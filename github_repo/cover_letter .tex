@@ -1,0 +1,53 @@
+\documentclass[11pt]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{hyperref}
+\usepackage{setspace}
+\onehalfspacing
+
+\longindentation=0pt
+
+\signature{Qingsong Gong\\
+Changzhi Medical College, Changzhi, Shanxi, China\\
+Corresponding author: Qingping Guo\\
+Email: kuijing198ffw@163.com}
+
+\address{Changzhi Medical College\\
+Changzhi, Shanxi\\
+China}
+
+\begin{document}
+
+\begin{letter}{The Editor\\
+BMC Medicine}
+
+\opening{Dear Editor,}
+
+We submit our manuscript entitled ``Mahalanobis distance-based biomarker network dysregulation and residual cardiovascular mortality: a binational cohort study'' for consideration for publication in BMC Medicine.
+
+Residual cardiovascular risk---the persistent likelihood of events despite optimal management of traditional risk factors---remains a central challenge in preventive cardiology. Over the past two years, five composite biomarker indices (CTI, RCII, CALLY, CHG, and CTI-FI) have been validated in cross-national CHARLS-NHANES studies and published in this field. All five share a fundamental limitation: they combine biomarkers through linear or product-term formulas that treat each marker as contributing independently to risk. Linear formulas cannot capture the correlation structure among biomarkers, yet this correlation structure reflects the integrity of homeostatic regulatory networks. Our study is the first to operationalize the network medicine paradigm for cardiovascular risk prediction using routine clinical biomarkers, moving beyond linear summation to quantify multi-system physiological dysregulation.
+
+We developed Network-CMIN, a Mahalanobis distance-based score that measures how far an individual's full biomarker profile deviates from the tightly coordinated configuration observed in healthy adults. The key findings are:
+
+\begin{enumerate}
+\item \textbf{Consistent mortality prediction across two independent populations.} Per 1-SD increase in Network-CMIN, the adjusted hazard ratio for all-cause mortality was 1.14 (95\% CI, 1.10--1.18) in CHARLS ($N = 12{,}436$, 852 deaths) and 1.13 (95\% CI, 1.09--1.18) in NHANES ($N = 17{,}804$, 3,446 deaths, NDI-linked). These near-identical estimates, despite fundamentally different confounding structures in China and the US, support a biological rather than population-specific explanation.
+
+\item \textbf{Identification of hidden high-risk individuals missed by traditional scores.} Among CHARLS participants classified as low-to-intermediate risk by clinical criteria, 14.8\% had high Network-CMIN and faced 86\% higher all-cause mortality (HR 1.86, 95\% CI 1.35--2.57, $P < 0.001$). The category-free net reclassification improvement was 0.195 ($P < 0.001$). These Discordant patients---one in seven ostensibly low-risk individuals---exhibit inflammatory-metabolic decoupling: their CRP is inappropriately elevated relative to their metabolic and hemodynamic state, a pattern structurally invisible to single-marker thresholds and linear composite indices.
+
+\item \textbf{CRP is essential to the network dysregulation signal.} When NHANES analyses excluded CRP (6-marker DM), the residual risk reclassification signal was directionally reversed. When CRP was restored (7-marker DM, NHANES Wave I), the Discordant HR aligned directionally with CHARLS (1.71 vs.\ 1.86).
+
+\item \textbf{Methodological transparency.} We provide stratified E-values (per-SD: 1.54; extreme-quartile Q4 vs.\ Q1: 3.99), explicit statistical power calculations for the underpowered NHANES Wave I sub-analysis (52\% power for HR = 1.86), within-CHARLS harmonization demonstrating that 6-marker DM yields conservative HR estimates, and MICE sensitivity analyses.
+\end{enumerate}
+
+We believe this manuscript is well-suited for BMC Medicine for three reasons. First, the study addresses a question of broad clinical interest---how to identify residual cardiovascular risk that traditional scores miss---using rigorous binational cohort methodology. Second, the network medicine paradigm offers a conceptual advance over the linear composite indices that currently dominate this literature, with direct clinical translatability using biomarkers already measured in routine primary care. Third, the study exemplifies the methodological transparency (E-value stratification, power calculation for underpowered analyses, explicit quantification of data limitations) that BMC Medicine values.
+
+This manuscript has not been published previously and is not under consideration elsewhere. All authors have approved the manuscript and agree with its submission. We have no competing interests to declare. Analysis code is publicly available at \url{https://github.com/CHI9-SATR/github_repo}.
+
+We would be happy to provide any additional information required.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}

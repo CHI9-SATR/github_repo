@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580">
+<defs>
+  <marker id="aB" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5 Z" fill="#5C6BC0"/></marker>
+  <marker id="aG" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5 Z" fill="#43A047"/></marker>
+  <marker id="aO" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5 Z" fill="#EF6C00"/></marker>
+</defs>
+<rect width="960" height="580" fill="#FFFFFF"/>
+<text x="480" y="26" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#212121">Figure 1. Study Flow Diagram</text>
+<rect x="36" y="38" width="426" height="26" rx="3" fill="#283593"/>
+<text x="249.0" y="56" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="bold" fill="#ffffff">CHARLS 2015  Derivation Cohort</text>
+<rect x="44" y="72" width="410" height="32" rx="4" fill="#E8EAF6" stroke="#283593" stroke-width="0.7"/>
+<text x="249.0" y="87" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#263238">Participants with blood sample (Wave 3)</text>
+<text x="249.0" y="100" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold" fill="#283593">N = 13,420</text>
+<rect x="44" y="114" width="410" height="24" rx="4" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+<text x="249.0" y="129.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#E65100">Excluded: age &lt; 45 (n = 945)</text>
+<rect x="44" y="146" width="410" height="24" rx="4" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+<text x="249.0" y="161.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#E65100">Excluded: baseline CVD (n = 129), cancer (n = 32), eGFR &lt; 15 (n = 24)</text>
+<rect x="44" y="178" width="410" height="24" rx="4" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+<text x="249.0" y="193.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#E65100">Excluded: missing 3+ core biomarkers (n = 38)</text>
+<rect x="44" y="220" width="410" height="36" rx="4" fill="#C5CAE9" stroke="#1A237E" stroke-width="0.7"/>
+<text x="249.0" y="235" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#263238">Final analytic sample</text>
+<text x="249.0" y="248" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold" fill="#1A237E">N = 12,436</text>
+<rect x="44" y="276" width="410" height="44" rx="4" fill="#F5F5F5" stroke="#546E7A" stroke-width="0.7"/>
+<text x="249.0" y="291" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#263238">852 all-cause deaths (6.9%)</text>
+<text x="249.0" y="304" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold" fill="#546E7A">Median follow-up 5.4 years</text>
+<line x1="249.0" y1="104" x2="249.0" y2="112" stroke="#5C6BC0" stroke-width="1" marker-end="url(#aB)"/>
+<line x1="249.0" y1="138" x2="249.0" y2="146" stroke="#5C6BC0" stroke-width="1" marker-end="url(#aB)"/>
+<line x1="249.0" y1="170" x2="249.0" y2="178" stroke="#5C6BC0" stroke-width="1" marker-end="url(#aB)"/>
+<line x1="249.0" y1="202" x2="249.0" y2="218" stroke="#5C6BC0" stroke-width="1" marker-end="url(#aB)"/>
+<line x1="249.0" y1="256" x2="249.0" y2="274" stroke="#5C6BC0" stroke-width="1" marker-end="url(#aB)"/>
+<rect x="498" y="38" width="426" height="26" rx="3" fill="#2E7D32"/>
+<text x="711.0" y="56" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="bold" fill="#ffffff">NHANES 1999-2016  External Validation Cohort</text>
+<rect x="506" y="72" width="410" height="32" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.7"/>
+<text x="711.0" y="87" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#263238">Eligible participants, 8 continuous waves</text>
+<text x="711.0" y="100" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32">N = 47,810</text>
+<rect x="506" y="114" width="410" height="24" rx="4" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+<text x="711.0" y="129.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#E65100">Excluded: age &lt; 45 (n = 17,832)</text>
+<rect x="506" y="146" width="410" height="24" rx="4" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+<text x="711.0" y="161.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#E65100">Excluded: baseline CVD (n = 9,412), cancer (n = 2,704)</text>
+<rect x="506" y="178" width="410" height="24" rx="4" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+<text x="711.0" y="193.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#E65100">Excluded: implausible anthropometry (n = 258)</text>
+<rect x="506" y="220" width="410" height="36" rx="4" fill="#C8E6C9" stroke="#1B5E20" stroke-width="0.7"/>
+<text x="711.0" y="235" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#263238">Final analytic sample</text>
+<text x="711.0" y="248" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20">N = 17,804</text>
+<rect x="506" y="276" width="410" height="44" rx="4" fill="#F5F5F5" stroke="#546E7A" stroke-width="0.7"/>
+<text x="711.0" y="291" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#263238">3,446 all-cause deaths (19.4%), CVD 1,012 (5.7%)</text>
+<text x="711.0" y="304" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold" fill="#546E7A">NDI-linked, median follow-up 9.7 years</text>
+<line x1="711.0" y1="104" x2="711.0" y2="112" stroke="#43A047" stroke-width="1" marker-end="url(#aG)"/>
+<line x1="711.0" y1="138" x2="711.0" y2="146" stroke="#43A047" stroke-width="1" marker-end="url(#aG)"/>
+<line x1="711.0" y1="170" x2="711.0" y2="178" stroke="#43A047" stroke-width="1" marker-end="url(#aG)"/>
+<line x1="711.0" y1="202" x2="711.0" y2="218" stroke="#43A047" stroke-width="1" marker-end="url(#aG)"/>
+<line x1="711.0" y1="256" x2="711.0" y2="274" stroke="#43A047" stroke-width="1" marker-end="url(#aG)"/>
+<rect x="210" y="340" width="540" height="24" rx="3" fill="#E65100"/>
+<text x="480.0" y="356" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="bold" fill="#ffffff">NHANES 2015-2016 Wave I  CRP Sub-analysis (exploratory)</text>
+<rect x="218" y="372" width="524" height="26" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.7"/>
+<text x="480.0" y="388.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#333333">Wave I participants with CRP data  N = 2,349</text>
+<rect x="218" y="406" width="524" height="36" rx="3" fill="#F5F5F5" stroke="#546E7A" stroke-width="0.7"/>
+<text x="480.0" y="427.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#333333">107 all-cause deaths (4.6%), 18 CVD deaths (0.8%), median FU 3.9 y</text>
+<line x1="480.0" y1="364" x2="480.0" y2="370" stroke="#EF6C00" stroke-width="1" marker-end="url(#aO)"/>
+<path d="M 711.0 320 L 711.0 332 L 480 332 L 480 338" fill="none" stroke="#9E9E9E" stroke-width="0.7" stroke-dasharray="4,3" marker-end="url(#aO)"/>
+<text x="36" y="480" font-family="Arial,Helvetica,sans-serif" font-size="7" fill="#9E9E9E">CVD = cardiovascular disease; eGFR = estimated glomerular filtration rate; CRP = C-reactive protein; NDI = National Death Index.</text>
+<text x="36" y="494" font-family="Arial,Helvetica,sans-serif" font-size="7" fill="#9E9E9E">CHARLS = China Health and Retirement Longitudinal Study; NHANES = National Health and Nutrition Examination Survey.</text>
+<text x="36" y="508" font-family="Arial,Helvetica,sans-serif" font-size="7" fill="#9E9E9E">Network-CMIN = Mahalanobis distance-based biomarker network dysregulation score computed from 6-10 routine clinical biomarkers.</text>
+</svg>
